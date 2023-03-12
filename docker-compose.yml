@@ -4,7 +4,7 @@ services:
     container_name: strapi
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: DockerfileDev
     restart: unless-stopped
     env_file: .env
     volumes:
