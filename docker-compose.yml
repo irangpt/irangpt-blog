@@ -15,5 +15,6 @@ services:
       - ./.env:/opt/app/.env
       - ./public/uploads:/opt/app/public/uploads
       - ./backups:/opt/app/backups
+      - ./data:/opt/app/data
     ports:
       - '1337:1337'
