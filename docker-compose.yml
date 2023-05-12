@@ -14,5 +14,6 @@ services:
       - ./yarn.lock:/opt/yarn.lock
       - ./.env:/opt/app/.env
       - ./public/uploads:/opt/app/public/uploads
+      - ./backups:/opt/app/backups
     ports:
       - '1337:1337'
